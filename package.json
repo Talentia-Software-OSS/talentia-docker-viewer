@@ -32,7 +32,7 @@
     "cli"
   ],
   "author": "Ermal Halilaga <ehalilaga@talentia-software.com>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "homepage": "https://github.com/Talentia-Software-OSS/talentia-docker-viewer#readme",
   "bugs": {
     "url": "https://github.com/Talentia-Software-OSS/talentia-docker-viewer/issues"
