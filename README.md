@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD031 MD032 MD033 MD040 MD041 MD060 -->
+<!-- markdownlint-disable MD028 MD031 MD032 MD033 MD040 MD041 MD060 -->
 <div align="center">
 
 <img src="static/64538097.png" alt="Talentia" width="80" />
@@ -47,16 +47,18 @@ Complete web UI for managing containers, images, volumes and networks — zero e
 ### Option 1 — npm (recommended)
 
 ```bash
-npm install -g talentia-docker-viewer
+npm install -g @talentiaoss/talentia-docker-viewer
 taldocker
 ```
+
+> ⚠️ The `-g` flag is **required** — it installs `taldocker` as a global command in your `$PATH`. Without `-g`, npm only puts it in `./node_modules/.bin/` of the current directory and the command will not be available globally.
 
 > The npm package is a thin wrapper that launches the bundled Python script. Python 3.8+ must still be installed inside WSL (it almost always already is).
 
 ### Option 2 — Run directly from source
 
 ```bash
-git clone https://github.com/Talentia-Software/talentia-docker-viewer.git
+git clone https://github.com/Talentia-Software-OSS/talentia-docker-viewer.git
 cd talentia-docker-viewer
 python3 taldocker.py
 ```

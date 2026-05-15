@@ -1128,7 +1128,7 @@ INDEX_HTML = r"""<!doctype html>
     <div class="spacer" style="flex:1"></div>
     <span id="footDisk">disk: -</span>
     <span>·</span>
-    <span>Powered by Guardian Of Galaxy</span>
+    <span>Powered by Talentia Software</span>
   </footer>
 </div>
 
