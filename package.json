@@ -1,5 +1,5 @@
 {
-  "name": "talentia-docker-viewer",
+  "name": "@talnetiaoss/talentia-docker-viewer",
   "version": "0.1.0",
   "description": "Lightweight Docker Desktop alternative for WSL2 - single-file, zero dependencies",
   "bin": {
@@ -29,12 +29,12 @@
   ],
   "author": "Ermal Halilaga <ehalilaga@talentia-software.com>",
   "license": "MIT",
-  "homepage": "https://github.com/Talentia-Software/talentia-docker-viewer#readme",
+  "homepage": "https://github.com/Talentia-Software-OSS/talentia-docker-viewer#readme",
   "bugs": {
-    "url": "https://github.com/Talentia-Software/talentia-docker-viewer/issues"
+    "url": "https://github.com/Talentia-Software-OSS/talentia-docker-viewer/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Talentia-Software/talentia-docker-viewer.git"
+    "url": "git+https://github.com/Talentia-Software-OSS/talentia-docker-viewer.git"
   }
 }
