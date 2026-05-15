@@ -12,16 +12,17 @@
   "files": [
     "bin/",
     "taldocker.py",
+    "static/",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "static/"
   ],
   "engines": {
     "node": ">=14"
   },
   "os": [
     "linux",
-    "darwin",
-    "win32"
+    "darwin"
   ],
   "keywords": [
     "docker",
