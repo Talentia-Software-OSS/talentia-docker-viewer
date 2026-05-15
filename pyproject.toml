@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "talentia-docker-viewer"
+version = "0.1.0"
+description = "Lightweight Docker Desktop alternative for WSL2 - single-file, zero dependencies"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [{ name = "Ermal Halilaga", email = "ehalilaga@talentia-software.com" }]
+keywords = ["docker", "wsl", "wsl2", "docker-desktop", "containers"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Web Environment",
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: System :: Systems Administration",
+  "Topic :: Software Development :: User Interfaces",
+]
+
+[project.scripts]
+taldocker = "taldocker:main"
+
+[project.urls]
+Homepage = "https://github.com/Talentia-Software/talentia-docker-viewer"
+Repository = "https://github.com/Talentia-Software/talentia-docker-viewer"
+Issues = "https://github.com/Talentia-Software/talentia-docker-viewer/issues"
+
+[tool.hatch.build.targets.wheel]
+include = ["taldocker.py"]
+
+[tool.hatch.build.targets.sdist]
+include = ["taldocker.py", "README.md", "LICENSE"]

@@ -1,0 +1,40 @@
+{
+  "name": "talentia-docker-viewer",
+  "version": "0.1.0",
+  "description": "Lightweight Docker Desktop alternative for WSL2 - single-file, zero dependencies",
+  "bin": {
+    "taldocker": "bin/taldocker.js"
+  },
+  "files": [
+    "bin/",
+    "taldocker.py",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "os": [
+    "linux",
+    "darwin",
+    "win32"
+  ],
+  "keywords": [
+    "docker",
+    "wsl",
+    "wsl2",
+    "docker-desktop",
+    "containers",
+    "cli"
+  ],
+  "author": "Ermal Halilaga <ehalilaga@talentia-software.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Talentia-Software/talentia-docker-viewer#readme",
+  "bugs": {
+    "url": "https://github.com/Talentia-Software/talentia-docker-viewer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Talentia-Software/talentia-docker-viewer.git"
+  }
+}
