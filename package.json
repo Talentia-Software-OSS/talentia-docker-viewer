@@ -1,6 +1,6 @@
 {
   "name": "@talentiaoss/talentia-docker-viewer",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Lightweight Docker Desktop alternative for WSL2 - single-file, zero dependencies",
   "bin": {
     "taldocker": "bin/taldocker.js"
