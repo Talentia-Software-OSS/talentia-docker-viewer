@@ -11,7 +11,6 @@ Complete web UI for managing containers, images, volumes and networks — zero e
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-WSL2%20%7C%20Linux-lightgrey.svg)
-[![pip](https://img.shields.io/badge/pip-install-3776AB?logo=pypi&logoColor=white)](#-installation)
 [![npm](https://img.shields.io/badge/npm-install-CB3837?logo=npm&logoColor=white)](#-installation)
 
 </div>
@@ -45,23 +44,16 @@ Complete web UI for managing containers, images, volumes and networks — zero e
 
 ## 📦 Installation
 
-### Option 1 — pip (recommended for Python users)
-
-```bash
-pip install talentia-docker-viewer
-taldocker
-```
-
-### Option 2 — npm (for Node ecosystems)
+### Option 1 — npm (recommended)
 
 ```bash
 npm install -g talentia-docker-viewer
 taldocker
 ```
 
-> The npm package is a thin wrapper that launches the Python script. Python 3.8+ must still be installed.
+> The npm package is a thin wrapper that launches the bundled Python script. Python 3.8+ must still be installed inside WSL (it almost always already is).
 
-### Option 3 — Run directly from source
+### Option 2 — Run directly from source
 
 ```bash
 git clone https://github.com/Talentia-Software/talentia-docker-viewer.git
